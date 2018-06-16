@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Dashboard</h1>
+    <div id="main">
+        Ball ID<input id="ID" type="text" /><br/>
+        Ball Color<input id="Color" type="text" /><br/>
+        Ball Radius<input id="Radius" type="text" /><br/>
+        <button id="btnSave">Save</button>
+        <hr/>
+        <table id="list">
+            <tr>
+                <td id="td_bid">▼Ball ID</td>
+                <td id="td_bcolor">▼Color</td>
+                <td id="td_bradi">▼Radius</td>
+                <td id="td_status">▼Status</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="dashboard.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+
+</html>
